@@ -1,0 +1,46 @@
+.navContainer{
+    display: flex;
+    justify-content:space-between   ;
+    padding: 0.5rem;
+    background-color: black;
+}
+
+.navLinks{
+    display: flex;
+}
+.navLinks li ,.connect li{
+    padding-inline: 1rem;
+}
+
+.connect{
+display: flex;
+}
+.navLinks li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .App{
+        width: 100%;
+    }
+  
+    .quoteWrapper {
+      height: 200px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .navHome{
+        position: absolute;
+        scale: 0;
+    }
+
+  }
+  @media screen and (max-width: 450px){
+    .connect {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(37, 37, 37);
+      }
+  } 
