@@ -1,12 +1,17 @@
 .navContainer{
     display: flex;
-    justify-content:space-between   ;
+    justify-content:space-around;
     padding: 0.5rem;
     background-color: black;
+    font-size: 22px;
+    position: fixed;
+    width: 100%;
 }
 
 .navLinks{
     display: flex;
+    position: relative;
+    right:-3%
 }
 .navLinks li ,.connect li{
     padding-inline: 1rem;
@@ -16,8 +21,10 @@
 display: flex;
 }
 .navLinks li:hover{
-    color: red;
+    color: black;
     cursor: pointer;
+    box-shadow: 3px 3px 2px rgb(255, 0, 0);
+    background-color: aqua;
 }
 
 @media screen and (max-width: 600px) {
@@ -31,16 +38,15 @@ display: flex;
     }
   }
   @media screen and (max-width: 600px) {
-    .navHome{
+    .connect{
         position: absolute;
         scale: 0;
     }
 
   }
   @media screen and (max-width: 450px){
-    .connect {
-        display: flex;
-        flex-direction: column;
-        background-color: rgb(37, 37, 37);
-      }
+    .navContainer{
+        font-size: 20px;
+        justify-content: space-between;
+    }
   } 
