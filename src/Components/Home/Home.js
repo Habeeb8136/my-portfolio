@@ -9,8 +9,8 @@ const Home = () => {
         <div className='homeContainer'>
         
             <Intro />
-            <Projects />
             <About />
+            <Projects />
             <Contact />
             
             
