@@ -1,0 +1,54 @@
+.AboutContainer{
+    height: 105vh;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    font-size: 22px;
+    background-color: black;
+}
+
+.techStack ,.techstach1,.techstack2{
+    justify-content: center;
+    display: flex;
+   color: black;
+}
+.techstach1 div,.techstack2 div{
+    transition: 0.2s;
+}
+.techstach1 div:hover,.techstack2 div:hover{
+    transform: scale(1.2);
+}
+.techStack div{
+    height: fit-content;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+}
+.techStack div img {
+    height:40px;
+    
+}
+.techStack div p{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 600px){
+    .AboutContainer{
+        font-size: 15px;
+        text-align: left;
+        padding: 5px;
+    }
+    .techStack div{
+        height: fit-content;
+        margin: 2px;
+        
+        
+    }
+    .techStack{
+        display:block
+    }
+    .techStack div p{
+        font-size: 5px;
+    }
+}
