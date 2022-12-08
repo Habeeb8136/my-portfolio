@@ -11,7 +11,8 @@
 .navLinks{
     display: flex;
     position: relative;
-    right:-3%
+    right:-3%;
+    
 }
 .navLinks li ,.connect li{
     padding-inline: 1rem;
@@ -26,6 +27,38 @@ display: flex;
     box-shadow: 3px 3px 2px rgb(255, 0, 0);
     background-color: aqua;
 }
+.menuBtn{
+    display: none;
+}
+.navSmScreen{
+    padding-top: 50px;
+    position: absolute;
+    top: -620%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    transition: 0.5s;
+    left: 0;
+}
+.navSmScreen.active{
+    
+    top: 0px;
+}
+
+.navLinksSmScreen,.navLinksSmScreen li{
+    padding: 10px;
+}
+.connectsmScreen{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.menuBtn{
+    z-index: 1;
+}
 
 @media screen and (max-width: 600px) {
     
@@ -36,17 +69,24 @@ display: flex;
     .quoteWrapper {
       height: 200px;
     }
-  }
-  @media screen and (max-width: 600px) {
     .connect{
-        position: absolute;
-        scale: 0;
+        display: none;
     }
-
   }
+  
   @media screen and (max-width: 450px){
     .navContainer{
-        font-size: 20px;
+        font-size: 23px;
         justify-content: space-between;
+        height: 50px;
+        align-items: center;
+        padding: 10px;
+    }
+    .navLinks{
+        display: none;
+    }
+    .menuBtn{
+        display: initial;
+        position: relative;
     }
   } 
