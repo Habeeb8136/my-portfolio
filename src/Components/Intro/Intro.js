@@ -15,12 +15,7 @@ const Intro = () => {
             </div>
         </div>
 
-        <div className='introright'>
-            <div className='imagecontainer'>
-                <h1>image</h1>
-            </div>
-            <p>f</p>
-        </div>
+        
             
         </div>
     );
