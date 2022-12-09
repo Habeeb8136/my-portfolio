@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './Navbar.css'
 import {FaBars, FaTimes} from 'react-icons/fa'
+import {AiFillHome , AiFillGithub ,AiFillLinkedin ,AiFillMail} from 'react-icons/ai'
+import {ImWhatsapp} from 'react-icons/im'
+import githubLogo from '../../Assets/icons8-github-60.png'
 const Navbar = () => {
   const [Clicked, setClicked] = useState(false);
   const handleClick=()=>{
@@ -8,7 +11,7 @@ const Navbar = () => {
   }
     return (
         <div className='navContainer'>
-          <div className='navHome'><h4>Home</h4></div>
+          <div className='navHome'><h4 className='homeText'>Home</h4><AiFillHome className='homeicon'/></div>
           <ul className='navLinks'>
             <li>About</li>
             <li>Projects</li>
@@ -16,10 +19,10 @@ const Navbar = () => {
           </ul>
           
           <ul className='connect'>
-           <li>Git</li>
-           <li>Li</li>
-           <li>Mail</li>
-           <li>ig</li>
+           <li><AiFillGithub className='gitLogo'/></li>
+           <li><AiFillLinkedin className='linkedinLogo'/></li>
+           <li><AiFillMail className='mailLogo'/></li>
+           <li><ImWhatsapp className='whatsappLogo'/></li>
           </ul>
 <div className='menuBtn' onClick={handleClick} >
 {Clicked? <FaTimes />:<FaBars />}
@@ -35,10 +38,10 @@ const Navbar = () => {
           </ul>
           
           <ul className='connectsmScreen'>
-           <li>Git</li>
-           <li>Li</li>
-           <li>Mail</li>
-           <li>ig</li>
+          <li><AiFillGithub className='gitLogo'/></li>
+           <li><AiFillLinkedin className='linkedinLogo'/></li>
+           <li><AiFillMail className='mailLogo'/></li>
+           <li><ImWhatsapp className='whatsappLogo'/></li>
           </ul>
 </div>
 

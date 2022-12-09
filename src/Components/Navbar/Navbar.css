@@ -54,10 +54,43 @@ display: flex;
 .connectsmScreen{
     padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .menuBtn{
     z-index: 1;
+}
+.homeicon{
+    display: none;
+}
+.homeText:hover{
+    transition: 0.1s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.gitLogo, .linkedinLogo ,.mailLogo ,.whatsappLogo{
+    scale: 1.2;
+    transition: 0.2s;
+}
+.homeicon:hover{
+    fill: grey; 
+    transform: scale(1.2);
+    cursor: pointer; 
+}
+.linkedinLogo:hover{
+fill: rgb(51, 112, 255);
+transform: scale(1.2);
+cursor: pointer;
+}
+.gitLogo:hover,.mailLogo:hover{
+    fill: grey;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.whatsappLogo:hover{
+ fill: rgb(0, 180, 0);
+ transform: scale(1.2);
+ cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
@@ -71,6 +104,13 @@ display: flex;
     }
     .connect{
         display: none;
+    }
+    .homeText{
+        display: none;
+    }
+    .homeicon{
+        display: initial;
+        scale: 1.1;
     }
   }
   
