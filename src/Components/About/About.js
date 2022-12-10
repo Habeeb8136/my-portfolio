@@ -13,6 +13,7 @@ import visualStudioLogo from '../../Assets/visual-studio-code-2019.png'
 const About = () => {
    
     return (
+        <section id="about">
         <div className='AboutContainer'>
             <h1>About me</h1>
             <br></br><br></br>
@@ -68,6 +69,7 @@ const About = () => {
                 
             </div>
         </div>
+        </section>
     );
 }
 
