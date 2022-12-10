@@ -1,0 +1,102 @@
+.contactsContainer{
+    padding-block: 50px;
+    display: flex;
+   
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 30px;
+}
+.redirectMsg{
+width: 30%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.redirectMsg div{
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    border: 0.5px solid white;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.formMsg{
+ width: 50%;
+}
+.formMsg button{
+    width: fit-content;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    padding-inline: 15px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius:15px ;
+   }
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    
+    
+}
+input,
+textarea {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  
+  border: 2px solid var(--color-primary-variant);
+  resize: none;
+  color: black;
+}
+
+.alert{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    text-align: center;
+    padding-block: 5%;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: rgba(32, 32, 32, 0.923);
+}
+.alertCloseBtn{
+    position: absolute;
+    left: 95%;
+    bottom: 95%;
+    transform: translate(-100%, 100%);
+}
+
+@media screen and (max-width:800px){
+    .redirectMsg{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        margin: auto;
+        font-size: 20px;
+    }
+    .contactsContainer{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .formMsg{
+        width: 95%;
+        margin: auto;
+    }
+    
+}
