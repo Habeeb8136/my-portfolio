@@ -27,8 +27,8 @@ const Contact = () => {
     }
 
     return (
-        <>
-        <h1>Contact</h1>
+        <section id='contact'>
+        <h1 className='heading'>Contact</h1>
         <div className='contactsContainer'>
         
             {alert?<div className='alert'>
@@ -38,18 +38,18 @@ const Contact = () => {
             
 
             <div className='redirectMsg'>
-                <div className='mob'>
-                    <BsFillTelephoneFill className='telLogo'/>
+            <a href="tel:+918136899923" target="_blank" rel="noreferrer"><div className='mob'>
+                <BsFillTelephoneFill className='telLogo'/>
                     <p>Mobile no.</p>
                     <h5>+91 8136899923</h5>
                     <h4><small>call</small></h4>
-                </div>
-                <div className='whatsapp'>
+                </div></a>
+                <a href="https://wa.me/918136899923" target="_blank" rel="noreferrer"><div className='whatsapp'>
                     <IoLogoWhatsapp className='whatsLogo'/>
                     <p>whatsapp</p>
                     <h5>+91 8136899923</h5>
                     <h4><small>send a message</small></h4>
-                </div>
+                </div></a>
             </div>
 
 
@@ -63,7 +63,7 @@ const Contact = () => {
                 </form>
             </div>
         </div>
-        </>
+        </section>
     );
 }
 
