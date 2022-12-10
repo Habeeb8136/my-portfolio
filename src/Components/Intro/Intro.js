@@ -3,6 +3,7 @@ import React from 'react';
 import './Intro.css'
 const Intro = () => {
     return (
+        <section id='home'>
         <div className='intoContainer'>
         <div className='introleft'>
         <h2>Hi ,<br></br> 
@@ -10,14 +11,13 @@ const Intro = () => {
             Frontend developer</h2>
             <div className='buttonsContainer'>
             <a href={CV} dowload ><button>Download CV</button></a>
-            <button>Know more</button>
-            <button>Contact me</button>
+            <a href='#about'><button>Know more</button></a>
+            <a href='#contact'><button>Contact me</button></a>
             </div>
         </div>
 
-        
-            
         </div>
+        </section>
     );
 }
 

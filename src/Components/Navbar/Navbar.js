@@ -19,10 +19,10 @@ const Navbar = () => {
   }
     return (
         <div className='navContainer'>
-          <div className='navHome'><h4 className='homeText'>Home</h4><AiFillHome className='homeicon'/></div>
+          <a href='#home'><div className='navHome'><h4 className='homeText'>Home</h4><AiFillHome className='homeicon'/></div></a>
           <ul className='navLinks'>
-            <li >About</li>
-            <li >Projects</li>
+            <a href='#about'><li >About</li></a>
+            <a href='#projects'><li >Projects</li></a>
             <a href='#contact'><li >Contact</li></a>
           </ul>
           
@@ -39,10 +39,10 @@ const Navbar = () => {
 </div>
 
 <div className={Clicked? 'navSmScreen active':'navSmScreen'}>
-<ul className='navLinksSmScreen'>
-            <li >About</li>
-            <li >Projects</li>
-            <li >Contact</li>
+          <ul className='navLinksSmScreen'>
+            <a href='#about'><li >About</li></a>
+            <a href='#projects'><li >Projects</li></a>
+            <a href='#contact'><li >Contact</li></a>
           </ul>
           
           <ul className='connectsmScreen'>
