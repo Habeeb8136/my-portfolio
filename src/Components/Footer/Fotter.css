@@ -9,3 +9,12 @@
 .footerContainer h5{
     color: rgba(255, 255, 255, 0.501);
 }
+
+@media screen and (max-width:600px){
+    .footerContainer h2{
+        font-size: 15px;
+    }
+    .footerContainer h5{
+        font-size: 10px;
+    }
+}
