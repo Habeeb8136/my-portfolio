@@ -3,7 +3,6 @@ import './Navbar.css'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import {AiFillHome , AiFillGithub ,AiFillLinkedin ,AiFillMail} from 'react-icons/ai'
 import {ImWhatsapp} from 'react-icons/im'
-import githubLogo from '../../Assets/icons8-github-60.png'
 const Navbar = () => {
   const [Clicked, setClicked] = useState(false);
   const handleClick=()=>{
@@ -19,10 +18,10 @@ const Navbar = () => {
           </ul>
           
           <ul className='connect'>
-           <li><AiFillGithub className='gitLogo'/></li>
-           <li><AiFillLinkedin className='linkedinLogo'/></li>
-           <li><AiFillMail className='mailLogo'/></li>
-           <li><ImWhatsapp className='whatsappLogo'/></li>
+           <li><a href='https://github.com/Habeeb8136' target='_blank' rel='noreferrer' ><AiFillGithub className='gitLogo'/></a></li>
+           <li><a href='https://www.linkedin.com/in/habeeb-muhammad-arif-b7445520a' target="_blank" rel="noreferrer"><AiFillLinkedin className='linkedinLogo'/></a></li>
+           <li><a href="mailto:habeeb041099@gmail.com"><AiFillMail className='mailLogo'/></a></li>
+           <li><a href="https://wa.me/918136899923" target="_blank" rel="noreferrer"><ImWhatsapp className='whatsappLogo'/></a></li>
           </ul>
 <div className='menuBtn' onClick={handleClick} >
 {Clicked? <FaTimes />:<FaBars />}
@@ -38,10 +37,10 @@ const Navbar = () => {
           </ul>
           
           <ul className='connectsmScreen'>
-          <li><AiFillGithub className='gitLogo'/></li>
-           <li><AiFillLinkedin className='linkedinLogo'/></li>
-           <li><AiFillMail className='mailLogo'/></li>
-           <li><ImWhatsapp className='whatsappLogo'/></li>
+          <li><a href='https://github.com/Habeeb8136' target='_blank' rel='noreferrer' ><AiFillGithub className='gitLogo'/></a></li>
+           <li><a href='https://www.linkedin.com/in/habeeb-muhammad-arif-b7445520a' target="_blank" rel="noreferrer"><AiFillLinkedin className='linkedinLogo'/></a></li>
+           <li><a href="mailto:habeeb041099@gmail.com"><AiFillMail className='mailLogo'/></a></li>
+           <li><a href="https://wa.me/918136899923" target="_blank" rel="noreferrer"><ImWhatsapp className='whatsappLogo'/></a></li>
           </ul>
 </div>
 
