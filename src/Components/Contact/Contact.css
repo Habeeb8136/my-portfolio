@@ -1,3 +1,6 @@
+.wrapper h1{
+ text-align: center;
+}
 .contactsContainer{
     padding-block: 50px;
     display: flex;
@@ -14,7 +17,8 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 }
-.redirectMsg div{
+.redirectMsg a {
+    text-decoration: none;
     width: 70%;
     padding: 10px;
     margin: 10px;
@@ -23,9 +27,12 @@ justify-content: space-between;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     
+}
+.redirectMsg a:hover{
+ background-color: rgba(32, 32, 32, 0.923);
+    ;
 }
 .formMsg{
  width: 50%;
@@ -55,7 +62,6 @@ textarea {
   padding: 1rem 1.5rem;
   font-size: 1rem;
   border-radius: 0.5rem;
-  
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: black;
@@ -80,6 +86,11 @@ textarea {
     bottom: 95%;
     transform: translate(-100%, 100%);
 }
+.form button:hover{
+    cursor: pointer;
+    background-color: rgba(32, 32, 32, 0.923);
+}
+
 
 @media screen and (max-width:800px){
     .redirectMsg{
@@ -97,6 +108,12 @@ textarea {
     .formMsg{
         width: 95%;
         margin: auto;
+        padding-inline: 20px;
+        
+    }
+    .form{
+        align-items: center;
+        
     }
     
 }
