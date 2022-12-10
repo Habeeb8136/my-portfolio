@@ -4,6 +4,15 @@ import {FaBars, FaTimes} from 'react-icons/fa'
 import {AiFillHome , AiFillGithub ,AiFillLinkedin ,AiFillMail} from 'react-icons/ai'
 import {ImWhatsapp} from 'react-icons/im'
 const Navbar = () => {
+  
+
+  // const scrollTo=(componentTo)=>{
+  //   window.scrollTo({
+  //     top:componentTo.offsetTop,
+  //     behavior:'smooth'
+  //   })
+  // }
+
   const [Clicked, setClicked] = useState(false);
   const handleClick=()=>{
     setClicked(!Clicked)
@@ -12,9 +21,9 @@ const Navbar = () => {
         <div className='navContainer'>
           <div className='navHome'><h4 className='homeText'>Home</h4><AiFillHome className='homeicon'/></div>
           <ul className='navLinks'>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li >About</li>
+            <li >Projects</li>
+            <a href='#contact'><li >Contact</li></a>
           </ul>
           
           <ul className='connect'>
@@ -31,9 +40,9 @@ const Navbar = () => {
 
 <div className={Clicked? 'navSmScreen active':'navSmScreen'}>
 <ul className='navLinksSmScreen'>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li >About</li>
+            <li >Projects</li>
+            <li >Contact</li>
           </ul>
           
           <ul className='connectsmScreen'>
