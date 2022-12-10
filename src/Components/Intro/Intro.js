@@ -3,8 +3,8 @@ import React from 'react';
 import './Intro.css'
 const Intro = () => {
     return (
-        <section id='home'>
-        <div className='intoContainer'>
+        
+        <div className='intoContainer' id='home'>
         <div className='introleft'>
         <h2>Hi ,<br></br> 
             im Habeeb muhammad Arif<br></br>
@@ -17,7 +17,7 @@ const Intro = () => {
         </div>
 
         </div>
-        </section>
+       
     );
 }
 

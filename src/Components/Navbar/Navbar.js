@@ -40,9 +40,9 @@ const Navbar = () => {
 
 <div className={Clicked? 'navSmScreen active':'navSmScreen'}>
           <ul className='navLinksSmScreen'>
-            <a href='#about'><li >About</li></a>
-            <a href='#projects'><li >Projects</li></a>
-            <a href='#contact'><li >Contact</li></a>
+            <a href='#about'><li onClick={handleClick}>About</li></a>
+            <a href='#projects'><li onClick={handleClick}>Projects</li></a>
+            <a href='#contact'><li onClick={handleClick}>Contact</li></a>
           </ul>
           
           <ul className='connectsmScreen'>

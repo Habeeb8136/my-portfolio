@@ -13,8 +13,8 @@ import visualStudioLogo from '../../Assets/visual-studio-code-2019.png'
 const About = () => {
    
     return (
-        <section id="about">
-        <div className='AboutContainer'>
+        
+        <div className='AboutContainer' id='about'>
             <h1>About me</h1>
             <br></br><br></br>
             <p>Mechanical engineering graduate started learning web development for career change.</p><br></br>
@@ -69,7 +69,7 @@ const About = () => {
                 
             </div>
         </div>
-        </section>
+       
     );
 }
 

@@ -27,8 +27,8 @@ const Contact = () => {
     }
 
     return (
-        <section id='contact'>
-        <h1 className='heading'>Contact</h1>
+       <>
+        <h1 className='heading' id='contact'>Contact</h1>
         <div className='contactsContainer'>
         
             {alert?<div className='alert'>
@@ -63,7 +63,7 @@ const Contact = () => {
                 </form>
             </div>
         </div>
-        </section>
+        </>
     );
 }
 
