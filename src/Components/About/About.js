@@ -15,6 +15,8 @@ const About = () => {
     return (
         
         <div className='AboutContainer' id='about'>
+        <br></br>
+        <br></br>
             <h1>About me</h1>
             <br></br><br></br>
             <p>Mechanical engineering graduate started learning web development for career change.</p><br></br>
