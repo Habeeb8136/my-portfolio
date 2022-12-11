@@ -1,9 +1,11 @@
 .projrctsContainer{
     height: fit-content;
+    padding: 100px;
+    text-align: center;
 }
 .projectslist {
     justify-content: center;
-    padding: 100px;
+    padding: 50px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -56,8 +58,11 @@ transition: 0.25s;
 
 
 @media screen and (max-width:700px){
+    .projrctsContainer{
+        padding: 0;
+    }
     .projectslist {
-        padding-block: 100px;
+        padding-block: 5px;
         padding-inline: 5px;
     }
     .projectCard{
@@ -78,6 +83,9 @@ transition: 0.25s;
     
 }
 @media screen and (max-width:370px){
+    .projrctsContainer{
+        padding: 0;
+    }
     .projectCard{
         margin: 5px;
     }
