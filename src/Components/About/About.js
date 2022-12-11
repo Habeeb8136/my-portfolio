@@ -17,7 +17,7 @@ const About = () => {
         <div className='AboutContainer' id='about'>
         <br></br>
         <br></br>
-            <h1>About me</h1>
+            <h1 className='heading'>About me</h1>
             <br></br><br></br>
             <p>Mechanical engineering graduate started learning web development for career change.</p><br></br>
             <p>Always been a tech enthusiast and loved the way technology works and love to learn new things about it.</p><br></br>

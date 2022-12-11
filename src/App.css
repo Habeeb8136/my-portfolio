@@ -4,3 +4,7 @@ html {
 a{
     text-decoration: none;
 }
+.heading{
+  text-align: center;
+  margin-block: 20px;
+}
