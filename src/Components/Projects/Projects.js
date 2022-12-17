@@ -12,7 +12,7 @@ const projectData = [
     title: "IMDb-clone",
     description: "Creation:ReactJS",
     github: "https://github.com/Habeeb8136/IMDb-Clone",
-    deployment: "https://imdb-habeeb-3j4xeribg-habeeb8136.vercel.app/",
+    deployment: "https://imdb-habeeb-ed67v3w5b-habeeb8136.vercel.app/",
   },
   {
     src: intaPage,
@@ -26,7 +26,7 @@ const projectData = [
     title: "H-kart e-commerce",
     description: "Creation:ReactJS",
     github: "https://github.com/Habeeb8136/ecommerce-app",
-    deployment: "https://h-kart-ammrz3skb-habeeb8136.vercel.app/",
+    deployment: "https://h-kart-m30bxwwbu-habeeb8136.vercel.app/",
   },
   {
     src: portfolioPage,
