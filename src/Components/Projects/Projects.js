@@ -10,31 +10,38 @@ const projectData = [
   {
     src: imdbPage,
     title: "IMDb-clone",
-    description: "Creation:ReactJS",
+    description: "ReactJS,Bootstrap,Redux",
     github: "https://github.com/Habeeb8136/IMDb-Clone",
-    deployment: "https://imdb-habeeb-ed67v3w5b-habeeb8136.vercel.app/",
+    deployment: "https://imdb-habeeb-3j4xeribg-habeeb8136.vercel.app/",
   },
   {
     src: intaPage,
     title: "Instagram app",
-    description: "Creation:React Native",
+    description: "React Native",
     github: "https://github.com/Habeeb8136/instagram-app",
     deployment: "",
   },
   {
     src: HkartPage,
     title: "H-kart e-commerce",
-    description: "Creation:ReactJS",
+    description: "ReactJS,Bootstrap,Redux",
     github: "https://github.com/Habeeb8136/ecommerce-app",
-    deployment: "https://h-kart-m30bxwwbu-habeeb8136.vercel.app/",
+    deployment: "https://h-kart-ammrz3skb-habeeb8136.vercel.app/",
   },
   {
     src: portfolioPage,
     title: "My Portfolio",
-    description: "Creation:ReactJS",
+    description: "ReactJS",
     github: "https://github.com/Habeeb8136/my-portfolio",
     deployment: "#home",
   },
+  {
+    src: fitclanPage,
+    title: "Fit-Clan Fitness",
+    description: "ReactJS,Firebase,Bootstrap,ContextAPI",
+    github: "https://github.com/UvaishKhan7/fitClan",
+    deployment: "https://fit-clan-lovat.vercel.app",
+  }
 ];
 
 const Projects = () => {
@@ -54,14 +61,6 @@ const Projects = () => {
             />
           );
         })}
-
-        <div className="inProgress">
-          <ProjectCard
-            src={fitclanPage}
-            title="Fit-Clan Fitness Website"
-            description="in progress.."
-          />
-        </div>
       </div>
     </div>
   );
