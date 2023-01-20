@@ -21,6 +21,7 @@ const Contact = () => {
           });
           
           e.target.reset();
+          handleClick()
     }
     function handleClick(){
         setAlert(!alert) 
@@ -56,10 +57,10 @@ const Contact = () => {
             <div className='formMsg'>
             <h3>send a message</h3>
                 <form onSubmit={sendMsg} className='form'>
-                    <input name='name' type='text' placeholder='Enter fullname'></input>
-                    <input name='email' type='email' placeholder='Your email id'></input>
-                    <textarea name='message' rows='4' placeholder='Message'></textarea>
-                    <button type='submit' onClick={handleClick} className='sendBtn'>Send <RiMailSendFill /></button>
+                    <input name='name' type='text' placeholder='Enter fullname' required></input>
+                    <input name='email' type='email' placeholder='Your email id' required></input>
+                    <textarea name='message' rows='4' placeholder='Message' required></textarea>
+                    <button type='submit' className='sendBtn'>Send <RiMailSendFill /></button>
                 </form>
             </div>
         </div>
