@@ -1,4 +1,4 @@
-import CV from '../../Assets/Habeeb muhammad arif Resume (5).pdf'
+import CV from '../../Assets/Habeeb Arif Resume.pdf'
 import React from 'react';
 import './Intro.css'
 const Intro = () => {
