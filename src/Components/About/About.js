@@ -19,8 +19,7 @@ const About = () => {
         <br></br>
             <h1 className='heading'>About me</h1>
             <br></br><br></br>
-            <p>Mechanical engineering graduate started learning web development for career change.</p><br></br>
-            <p>Always been a tech enthusiast and loved the way technology works and love to learn new things about it.</p><br></br>
+            <p>A Passionate and Solution driven Software developer with 1.5+ years of hands-on experience in creating and maintaining responsive, user-friendly, and scalable Web and Mobile App using latest technologies. Talented with a strong ability to produce clean and reusable code and work well with others. With keen interest in Design Aesthetics I am dedicated in making picture-perfect UI with increased Performance and best user experience.</p><br></br>
             <p>worked on several <a href='/'>projects</a> creating and developing ui for web applications</p><br></br>
             <h4>Tools and technologies familiar with..</h4>
             <div className='techStack'>
